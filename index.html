@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Художник Ник</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    .box {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .contacts {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .contacts a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .contacts a:hover {
+      color: #1abc9c;
+      text-decoration: underline;
+    }
+
+    .gallery {
+      width: 90%;
+      max-width: 1000px;
+      overflow-x: auto;
+      white-space: nowrap;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .gallery img {
+      height: 200px;
+      margin-right: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+
+    .gallery::-webkit-scrollbar {
+      height: 10px;
+    }
+
+    .gallery::-webkit-scrollbar-track {
+      background: #eee;
+      border-radius: 10px;
+    }
+
+    .gallery::-webkit-scrollbar-thumb {
+      background: #3498db;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>medicalmaid</header>
+
+  <div class="box">
+    <div class="contacts">
+      Добро пожаловать! Это прекрасный художник <a href="https://t.me/medicalmaid" target="_blank" rel="noopener">мед. кабинет ᯤ ᯅ ᯤ</a>.
+      Подписывайтесь, чтобы следить за новыми работами! <br> Можно сделать заказ в тг <a href="https://t.me/kektawi" target="_blank" rel="noopener">прайс тави 👾</a>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="gallery">
+      <img src="5339559783008693602.jpg" alt="Рисунок 1" />
+      <img src="5413482582559030087.jpg" alt="Рисунок 2" />
+      <img src="5395485488472781353.jpg" alt="Рисунок 3" />
+      <img src="5339559783008693601.jpg" alt="Рисунок 4" />
+      <img src="5323748110016573846.jpg" alt="Рисунок 5" />
+      <img src="5336983270782529933.jpg" alt="Рисунок 6" />
+      <img src="5339559783008693599.jpg" alt="Рисунок 7" />
+    </div>
+  </div>
+</body>
+</html>
